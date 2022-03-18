@@ -44,9 +44,9 @@ As part of the grant program, we allow everyone to participate in the evaluation
 4. Fill out the template with the specifics of your evaluation. The higher the quality of your assessment and the level of detail, the higher the KSM recompense.
 5. Once you have completed the evaluation, create a pull request.
 6. Add a comment or review to the pull request that contains the evaluated milestone delivery. This comment should contain a quick summary of your finding as well as link to the milestone submission.
-7. Milestone evaluations are double-checked by [W3F Grants Evaluators](https://github.com/eosnetworkfoundation/Grants-Program#team). Successful milestone evaluations are merged and the evaluator is rewarded with KSM.
+7. Milestone evaluations are double-checked by [ENF Grants Evaluators](https://github.com/eosnetworkfoundation/grant-framework#grant-teams). Successful milestone evaluations are merged and the evaluator is rewarded with KSM.
 
-*You can evaluate as many deliveries as you like. With each successful evaluation, the probability of being double-checked decreases and eventually you'll be added to the list of [W3F Grants Evaluators](https://github.com/eosnetworkfoundation/Grants-Program#team) yourself.*
+*You can evaluate as many deliveries as you like. With each successful evaluation, the probability of being double-checked decreases and eventually you'll be added to the list of [ENF Grants Evaluators](https://github.com/eosnetworkfoundation/grant-framework#grant-evaluators) yourself.*
 
 ## Help
 
@@ -54,7 +54,7 @@ As part of the grant program, we allow everyone to participate in the evaluation
 
 | <img src="src/web.png?s=50" width="50"> | <img src="src/twitter.png?s=50" width="50"> | <img src="src/medium.png?s=50" width="50"> | <img src="src/like.png?s=50" width="50"> | <img src="src/reddit.png?s=50" width="50"> | <img src="src/youtube-play.png?s=50" width="50"> |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [W3F Website](https://web3.foundation) | [W3F Twitter](https://twitter.com/web3foundation) | [W3F Medium](https://medium.com/web3foundation) | [Polkadot Wiki](https://wiki.polkadot.network/en/) | [Web 3.0 Reddit](https://www.reddit.com/r/web3) | [W3F YouTube](https://www.youtube.com/channel/UClnw_bcNg4CAzF772qEtq4g) |
+| [ENF Website](https://eosn.foundation) | [ENF Twitter](https://twitter.com/eosnfoundation) | [ENF Medium](https://medium.com/eos-network-foundation) | &nbsp; | &nbsp; | [ENF YouTube](https://www.youtube.com/c/EverythingEOS) |
 
 
 ## License <!-- omit in toc -->
