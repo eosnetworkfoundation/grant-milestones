@@ -6,7 +6,7 @@
 
 ## Milestone Delivery Process
 
-The milestone delivery process is part of the [ENF Grants Program](https://github.com/eosnetworkfoundation/grant-framework). You can find the application process [here](https://github.com/eosnetworkfoundation/grant-framework/blob/master/README.md#grant-process).  
+The milestone delivery process is part of the [ENF Grants Program](https://github.com/eosnetworkfoundation/grant-framework). You can find the application process [here](https://github.com/eosnetworkfoundation/grant-framework#grant-process-for-new-proposals).  
 
 :warning: Before you submit a milestone, make sure it complies with our [Guidelines for Milestone Deliverables](https://github.com/eosnetworkfoundation/grant-framework/blob/master/docs/milestone-deliverables-guidelines.md).
 
