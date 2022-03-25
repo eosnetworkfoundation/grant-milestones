@@ -44,7 +44,7 @@ As part of the grant program, we allow everyone to participate in the evaluation
 4. Fill out the template with the specifics of your evaluation. The higher the quality of your assessment and the level of detail, the higher the KSM recompense.
 5. Once you have completed the evaluation, create a pull request.
 6. Add a comment or review to the pull request that contains the evaluated milestone delivery. This comment should contain a quick summary of your finding as well as link to the milestone submission.
-7. Milestone evaluations are double-checked by [ENF Grants Evaluators](https://github.com/eosnetworkfoundation/grant-framework#grant-teams). Successful milestone evaluations are merged and the evaluator is rewarded with KSM.
+7. Milestone evaluations are double-checked by [ENF Grants Evaluators](https://github.com/eosnetworkfoundation/grant-framework#grant-teams). Successful milestone evaluations are merged and the evaluator is rewarded with EOS.
 
 *You can evaluate as many deliveries as you like. With each successful evaluation, the probability of being double-checked decreases and eventually you'll be added to the list of [ENF Grants Evaluators](https://github.com/eosnetworkfoundation/grant-framework#grant-evaluators) yourself.*
 
