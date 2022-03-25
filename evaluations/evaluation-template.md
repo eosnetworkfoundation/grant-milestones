@@ -1,7 +1,7 @@
 # Evaluation
 
 > Don't remove any of the mandatory parts presented in bold letters or as headlines!
-> Lines starting with `>`, such as this one, can be removed.
+> Lines starting with `>`, such as this one, should be removed.
 
 - **Status:** In Progress/Accepted/Rejected
 - **Application Document:** Please, provide a link to the merged contract (the `.md` file in the [applications](https://github.com/eosnetworkfoundation/grant-framework/tree/master/applications) directory). 
