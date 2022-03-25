@@ -51,8 +51,14 @@ As part of the grant program, we allow everyone to participate in the evaluation
 ## Help
 
 ### Additional information
-| -- | -- | -- | -- |
-| [ENF Website](https://eosn.foundation) | [ENF Twitter](https://twitter.com/eosnfoundation) | [ENF Medium](https://medium.com/eos-network-foundation) |  [ENF YouTube](https://www.youtube.com/c/EverythingEOS) |
+<table border="0">
+<tr>
+   <td> [ENF Website](https://eosn.foundation) </td>
+   <td> [ENF Twitter](https://twitter.com/eosnfoundation) </td>
+   <td> [ENF Medium](https://medium.com/eos-network-foundation) </td>
+   <td> [ENF YouTube](https://www.youtube.com/c/EverythingEOS) </td
+ </tr>
+</table>
 
 
 ## License <!-- omit in toc -->
