@@ -41,7 +41,7 @@ As part of the grant program, we allow everyone to participate in the evaluation
 1. [Fork](https://github.com/eosnetworkfoundation/grant-milestones/fork) this repository.
 2. In the newly created fork, create a **copy** of the evaluation template ([`evaluations/evaluation-template.md`](evaluations/evaluation-template.md)).
 3. Name the file `project-name_milestone-number_your-github-username.md`.
-4. Fill out the template with the specifics of your evaluation. The higher the quality of your assessment and the level of detail, the higher the KSM recompense.
+4. Fill out the template with the specifics of your evaluation. The higher the quality of your assessment and the level of detail, the higher the EOS compensation.
 5. Once you have completed the evaluation, create a pull request.
 6. Add a comment or review to the pull request that contains the evaluated milestone delivery. This comment should contain a quick summary of your finding as well as link to the milestone submission.
 7. Milestone evaluations are double-checked by [ENF Grants Evaluators](https://github.com/eosnetworkfoundation/grant-framework#grant-teams). Successful milestone evaluations are merged and the evaluator is rewarded with EOS.
@@ -63,4 +63,4 @@ As part of the grant program, we allow everyone to participate in the evaluation
 
 ## License <!-- omit in toc -->
 
-[Apache License 2.0](LICENSE) © Web3 Foundation
+[Apache License 2.0](LICENSE) © EOS Network Foundation
