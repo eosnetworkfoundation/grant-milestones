@@ -1,4 +1,4 @@
-# EOS Network Foundation Grant Milestone Delivery <!-- omit in toc -->
+# EOS Network Foundation Grant Milestones
 
 > This repository is only for submitting finished milestones for the [EOS Network Foundation (ENF) Grants Program](https://github.com/eosnetworkfoundation/grant-framework).
 
