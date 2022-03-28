@@ -12,7 +12,7 @@ The milestone delivery process is part of the [ENF Grants Program](https://githu
 
 1. **Milestone Delivery:**
    1. [Fork](https://github.com/eosnetworkfoundation/grant-milestones/fork) this repository with the **same GitHub account** that you used to submit the application.
-   2. In the newly created fork, create a copy of the milestone delivery template ([`deliveries/milestone-delivery-template.md`](deliveries/milestone-delivery-template.md)). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/eosnetworkfoundation/grant-milestones/master/deliveries/milestone-delivery-template.md) of the template inside the new one. Make sure you **do not modify the template file directly**.
+   2. In the newly created fork, create a copy of the milestone delivery template ([`deliveries/milestone-delivery-template.md`](deliveries/milestone-delivery-template.md)). If you're using the GitHub web interface, you will need to create a new file and copy the [contents](https://raw.githubusercontent.com/eosnetworkfoundation/grant-milestones/main/deliveries/milestone-delivery-template.md) of the template inside the new one. Make sure you **do not modify the template file directly**.
    5. Fill out the template with the details of your milestone, including all deliverables as listed in your application.
    4. Name the file `project_name-milestone_number.md`.
    5. Fill out the [invoice form](https://forms.gle/wLuAzXKa9qYrZQob9).
