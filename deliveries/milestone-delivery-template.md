@@ -6,7 +6,7 @@
 
 **The [invoice form](https://forms.gle/wLuAzXKa9qYrZQob9) has been filled out correctly for this milestone and the delivery is according to the official [milestone delivery guidelines](https://github.com/eosnetworkfoundation/grant-framework/blob/master/docs/milestone-deliverables-guidelines.md).**  
 
-* **Application Document:** Please, provide a link to the merged contract (the `.md` file in the [applications](https://github.com/w3f/Grants-Program/tree/master/applications) directory).
+* **Application Document:** Please, provide a link to the merged contract (the `.md` file in the [applications](https://github.com/eosnetworkfoundation/grant-framework/tree/master/applications) directory).
 * **Milestone Number:** e.g. 1
 
 **Context** (optional)
