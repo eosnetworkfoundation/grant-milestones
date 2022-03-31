@@ -8,7 +8,7 @@
 
 The milestone delivery process is part of the [ENF Grants Program](https://github.com/eosnetworkfoundation/grant-framework). You can find the application process [here](https://github.com/eosnetworkfoundation/grant-framework#grant-process-for-new-proposals).  
 
-:warning: Before you submit a milestone, make sure it complies with our [Guidelines for Milestone Deliverables](https://github.com/eosnetworkfoundation/grant-framework/blob/master/docs/milestone-deliverables-guidelines.md).
+:warning: Before you submit a milestone, make sure it complies with our [Guidelines for Milestone Deliverables](https://github.com/eosnetworkfoundation/grant-framework/blob/main/docs/milestone-deliverables-guidelines.md).
 
 1. **Milestone Delivery:**
    1. [Fork](https://github.com/eosnetworkfoundation/grant-milestones/fork) this repository with the **same GitHub account** that you used to submit the application.
