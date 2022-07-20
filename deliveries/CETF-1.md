@@ -16,14 +16,14 @@ We've had consulatation with a developer (Andreas Kolousmos) in regards to the s
 >
 > If there is anything particular about any of the deliverables we or a future reader should know, use the respective `Notes` column.
 
-| Number | Deliverable | Link | Notes |
-| ------ | ----------- | ---- | ----- |
-| 1.     | ...         | ...  | ...   | mu |
-| 2.     | ...         | ...  | ...   |
+| Number | Deliverable   | Link                                                        | Notes |
+| ------ | ------------- | ----------------------------------------------------------- | ----- |
+| 0a.    | License       | [LICENCE](https://github.com/n0umen0n/sceosetf/blob/master/ | MIT   |
+| 0b.    | Documentation | ...                                                         | ...   |
 
-| Number | Deliverable     | Link                                                                                                                                    | Notes                                                               |
-| -----: | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-|    0a. | License         | MIT                                                                                                                                     | [LICENCE](https://github.com/n0umen0n/sceosetf/blob/master/LICENSE) | MIT |
+| Number | Deliverable     | Link                                                                                                                                    | Notes |
+| -----: | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----- |
+|    0a. | License         | [LICENCE](https://github.com/n0umen0n/sceosetf/blob/master/LICENSE)                                                                     |
 |    0b. | Documentation   | Front-end and smart contract repos will contain documentation on how to set up a fund.                                                  |
 |    0c. | Unit Tests      | Core functions (rebalancing, creation and redemption of the fund) will be covered by unit tests to ensure functionality and robustness. |
 |     1. | UI              | 19 fixes/additions in the to do list.                                                                                                   |
