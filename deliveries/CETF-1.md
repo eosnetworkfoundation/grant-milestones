@@ -6,29 +6,16 @@
 - **Milestone Number:** 1
 
 **Context**
-Main objective of this milestone was to finish UI for the Phase 2. All the additions have been deployed to testing.eosetf.io and are being publicly tested.
+Main objective of this milestone was to finish UI for the Phase 2. All the additions have been deployed to testing.eosetf.io and now are being publicly tested.
 
-We've had consulatation with a developer (Andreas Kolousmos) in regards to the smart contracts. Main recommendations were file structuring and formatting. We're in a process of refactoring the code to be compatible with clsdk.
+We've had consulatation in regards to contracts. Main recommendations were file structuring and formatting. For the next milestone we'll further refactor the contracts to be compatible with clsdk, with more improvements in formatting and structure.
 
 **Deliverables**
 
-> Please provide a list of all deliverables of the milestone extracted from the initial application and a link to the deliverable itself. Ideally all links inside the below table should include a commit hash, which will be used for testing. If you don't provide a commit hash, we will work off the default branch of your repository. Thus, if you plan on continuing work after delivery, we suggest you create a separate branch for either the delivery or your continuing work.
->
-> If there is anything particular about any of the deliverables we or a future reader should know, use the respective `Notes` column.
-
-| Number | Deliverable   | Link                                                        | Notes |
-| ------ | ------------- | ----------------------------------------------------------- | ----- |
-| 0a.    | License       | [LICENCE](https://github.com/n0umen0n/sceosetf/blob/master/ | MIT   |
-| 0b.    | Documentation | ...                                                         | ...   |
-
-| Number | Deliverable     | Link                                                                                                                                    | Notes |
-| -----: | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----- |
-|    0a. | License         | [LICENCE](https://github.com/n0umen0n/sceosetf/blob/master/LICENSE)                                                                     |
-|    0b. | Documentation   | Front-end and smart contract repos will contain documentation on how to set up a fund.                                                  |
-|    0c. | Unit Tests      | Core functions (rebalancing, creation and redemption of the fund) will be covered by unit tests to ensure functionality and robustness. |
-|     1. | UI              | 19 fixes/additions in the to do list.                                                                                                   |
-|     2. | Smart contracts | 2.1 Consultation with a developer (implementing fixes in case they are objective). 2.2 Configuration of the contracts for deployment.   |
-
-**Additional Information**
-
-> Any further comments on the milestone that you would like to share with us.
+| Number | Deliverable     | Link                                                                                                                                                                                                                                                       | Notes                                                                                                                           |
+| ------ | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 0a.    | License         | [LICENCE](https://github.com/n0umen0n/sceosetf/blob/master/)                                                                                                                                                                                               | MIT                                                                                                                             |
+| 0b.    | Documentation   | [DOCS](https://docs.eosetf.io/#/)                                                                                                                                                                                                                          | Will be continuously updated.                                                                                                   |
+| 0c.    | Unit tests      | [UNIT TESTS](https://docs.eosetf.io/#/)                                                                                                                                                                                                                    |                                                                                                                                 | Info on tests can be found in the documentation section 2.2. More thorough unit tests will be added after refactoring. |
+| 1.     | UI              | [NEW UI](https://testing.eosetf.io/)                                                                                                                                                                                                                       | [19 fixes/additions](https://docs.google.com/document/d/1u_-e9HplzpKDWhYt8QBgN9KkEoAyiTnHfkI-XT87SuM/edit) have been completed. |
+| 2.     | Smart Contracts | Consulted with [Andreas Kolosmous](https://twitter.com/kouloumos). Suggestions for improvement were structuring and formatting. Configuration [file](https://github.com/lennarlehestik/eosetfv2/blob/main/src/fundconfig.js) for contracts has been added. |
