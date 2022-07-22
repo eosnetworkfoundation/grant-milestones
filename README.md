@@ -52,9 +52,9 @@ As part of the grant program, we allow everyone to participate in the evaluation
 ### Additional information
 <table border="0">
 <tr>
-   <td> <a href="https://eosn.foundation">ENF Website</a> </td>
+   <td> <a href="https://eosnetwork.com">ENF Website</a> </td>
    <td> <a href="https://twitter.com/eosnfoundation">ENF Twitter </td>
-   <td> <a href="https://medium.com/eos-network-foundation">ENF Medium</a> </td>
+   <td> <a href="https://eosnetwork.com/blog">ENF Blog</a> </td>
    <td> <a href="https://www.youtube.com/c/EverythingEOS">ENF YouTube </td>
  </tr>
 </table>
