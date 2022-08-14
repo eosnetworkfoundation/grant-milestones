@@ -19,7 +19,7 @@
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 0a. | [Reddit EOS](https://www.reddit.com/r/eos/)) | ...| 
+| 0a. | Integration of new users to Reddit. | [Reddit EOS](https://www.reddit.com/r/eos/)) | ...| 
 | 0b. | Documentation |[DOC](https://docs.google.com/document/d/1eJv_sCTUVEl9xksP4U4jnxzzNvKL0FBrUvAj0d_U5HA/edit?usp=sharing) | ...|
 | 0c. | User attention. |[EOS SUPPORT](https://eossupport.io/)| Support and Attention through EOS SUPPORT. With guides, articles and more.|
 | 0d. | General and Spam Moderation |[DOC](https://docs.google.com/document/d/1eJv_sCTUVEl9xksP4U4jnxzzNvKL0FBrUvAj0d_U5HA/edit?usp=sharing)|This document contains the rules on how reddit will be moderated.|
