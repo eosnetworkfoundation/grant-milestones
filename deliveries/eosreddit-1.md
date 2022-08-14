@@ -7,7 +7,7 @@
 **The [invoice form](https://forms.gle/wLuAzXKa9qYrZQob9) has been filled out correctly for this milestone and the delivery is according to the official [milestone delivery guidelines](https://github.com/eosnetworkfoundation/grant-framework/blob/master/docs/milestone-deliverables-guidelines.md).**  
 
 * **Application Document:** [Please, provide a link to the merged contract (the `.md` file in the [applications](https://github.com/eosnetworkfoundation/grant-framework/tree/master/applications) directory)](https://github.com/Creamyvanill/grant-framework/blob/main/applications/eosreddit.md).
-* **Milestone Number:** e.g. 1
+* **Milestone Number:** 1
 
 **Context** (optional)
 > Our Mission with this Milestone is to Educate, inform and promote the world of cryptocurrencies about the most recent events on EOS and its technological improvements, generate active use of Reddit by promoting the adoption of EOS, promoting the different content of interest to users in Reddit.
@@ -19,8 +19,13 @@
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1. | ... |...| ...| 
-| 2.  | ... |...| ...| 
+| 0a. | Integration of new users to Reddit. |...| ...| 
+| 0b. | Documentation |...| ...|
+| 0c. | User attention. |[EOS SUPPORT](https://eossupport.io/)| Support and Attention through EOS SUPPORT. With guides, articles and more.|
+| 0d. | General and Spam Moderation |...| ...|
+| 0e. | Daily Posts |...| ...|
+| 1.  | Statistics and Development |...| ...|
+
 
 **Additional Information**
 > Any further comments on the milestone that you would like to share with us.
