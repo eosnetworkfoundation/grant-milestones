@@ -19,13 +19,13 @@
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 0a. | Integration of new users to Reddit. |...| ...| 
-| 0b. | Documentation |...| ...|
+| 0a. | [Reddit EOS](https://www.reddit.com/r/eos/)) | ...| 
+| 0b. | Documentation |[DOC](https://docs.google.com/document/d/1eJv_sCTUVEl9xksP4U4jnxzzNvKL0FBrUvAj0d_U5HA/edit?usp=sharing) | ...|
 | 0c. | User attention. |[EOS SUPPORT](https://eossupport.io/)| Support and Attention through EOS SUPPORT. With guides, articles and more.|
-| 0d. | General and Spam Moderation |...| ...|
-| 0e. | Daily Posts |...| ...|
-| 1.  | Statistics and Development |...| ...|
+| 0d. | General and Spam Moderation |[DOC](https://docs.google.com/document/d/1eJv_sCTUVEl9xksP4U4jnxzzNvKL0FBrUvAj0d_U5HA/edit?usp=sharing)|This document contains the rules on how reddit will be moderated.|
+| 0e. | Daily Posts |[EOS VISION](https://twitter.com/eos_vision)| Our trismetal report will show the statistics of increases in new users, increases in views and publications made. You can see the report published on our twitter.|
+| 1.  | Statistics and Development |[EOS VISION](https://github.com/eosvision1) | Our report will be recorded in a repository on the official EOS VISION account on GitHub|
 
 
 **Additional Information**
-> Any further comments on the milestone that you would like to share with us.
+> The ENF already has an official account on Reddit, official content is uploaded, and it is having good results. We will help increase this account. [Reddit ENF](https://www.reddit.com/user/EOSNetworkFoundation)
