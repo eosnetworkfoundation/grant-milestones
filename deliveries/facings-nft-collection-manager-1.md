@@ -15,7 +15,7 @@ The deliverables in this milestone represent the core portion of the NFT Collect
 | -----: | ------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------- |
 | 0a.    | License             | https://github.com/FACINGS/collection-manager/blob/main/LICENSE    | GPLv3                                                                   |
 | 0b.    | Documentation       | https://github.com/FACINGS/collection-manager/blob/main/README.md  | Project overview and "Getting Started" guide                            |
-| 0c.    | Testing Guide       | https://github.com/FACINGS/collection-manager/blob/main/README.md  | Documentation for a walkthrough of the UI as described.                 |
+| 0c.    | Testing Guide       | https://github.com/FACINGS/collection-manager/blob/main/testing-guide.md | Documentation for a walkthrough of the UI as described.           |
 | 0d.    | Docker              | https://github.com/FACINGS/collection-manager/blob/main/Dockerfile | Part of "Getting started" guide                                         |
 | 1.     | Base Implementation | https://collectionmanager.test.facings.io/                         | Home page: show featured collections, “about” section, and login link.  |
 | 2.     | Login & Account     | https://collectionmanager.test.facings.io/                         | When logged in, show account, RAM usage, and list of user's collections |
