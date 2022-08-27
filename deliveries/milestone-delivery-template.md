@@ -8,6 +8,9 @@
 
 * **Application Document:** Please, provide a link to the merged contract (the `.md` file in the [applications](https://github.com/eosnetworkfoundation/grant-framework/tree/master/applications) directory).
 * **Milestone Number:** e.g. 1
+* **Milestone Payment Amount:** $N,NNN USD
+* **Contact Name:** Person name here
+* **Contact email:** email@examplehost.com
 
 **Context** (optional)
 > Please provide a short paragraph or two connecting the deliverables in this milestone and describing their purpose.
