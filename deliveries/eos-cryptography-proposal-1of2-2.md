@@ -4,20 +4,24 @@
 
 * **Application Document:**   
 [https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/eos-cryptography-proposal.md](https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/eos-cryptography-proposal.md).
-* **Milestone Number:** 1
+* **Milestone Number:** 2
+* **Milestone Payment Amount:** $11,000 USD
+* **Contact Name:** Luka Percic
+* **Contact email:** zeropass@pm.me
 
 **Context**  
-Open-sourcing RSA PKCS v1.5 signature verification algorithm and the Keccak hash algorithms: SHA3-256, SHA3-512, SHAKE-128 and SHAKE-256
+RSASSA-PSS signature verification algorithm. It is a probabilistic and provably secure RSA signature scheme as opposed to RSA PKCS v1.5.  
+All updated cryptosystems are switching to RSASSA-PSS.
 
 **Deliverables**
 
 | Number | Deliverable | Link | Notes |
 | -----: | ----------- | ------------- |------------- |
-| 0a. | License | [LICENSE](https://github.com/ZeroPass/eosio.ck/blob/0f83ef27d226081a5181dceba90132dbb16dc38f/LICENSE) | MIT | 
-| 0b. | Documentation | Documentation and step by step guide in [README.md](https://github.com/ZeroPass/eosio.ck/blob/0f83ef27d226081a5181dceba90132dbb16dc38f/README.md).  | 
-| 0c. | Testing Guide | [Section in the guide](https://github.com/ZeroPass/eosio.ck/blob/0f83ef27d226081a5181dceba90132dbb16dc38f/README.md#algorithm-testing) |
-| 0d. | Running it | We deployed on the [Jungle 3 and CryptoKylin testnets](https://github.com/ZeroPass/eosio.ck/tree/0f83ef27d226081a5181dceba90132dbb16dc38f/README.md#testnet). |
-| 1. | [EOSIO SDK library](https://github.com/ZeroPass/eosio.ck/tree/0f83ef27d226081a5181dceba90132dbb16dc38f) | Open-source cryptography library with RSA PKCS v1.5 signature verification algorithm and Keccak hash algorithms: SHA3-256, SHA3-512, SHAKE-128 and SHAKE-256.<br>The `eosio.ck` libary can be found at [https://github.com/ZeroPass/eosio.ck](https://github.com/ZeroPass/eosio.ck/tree/0f83ef27d226081a5181dceba90132dbb16dc38f) |
+| 0a. | License | [LICENSE](https://github.com/ZeroPass/antelope.ck/LICENSE) | MIT | 
+| 0b. | Documentation | Documentation and step by step guide in [README.md](https://github.com/ZeroPass/antelope.ck/blob/master/README.md).  | 
+| 0c. | Testing Guide | [Section in the guide](https://github.com/ZeroPass/antelope.ck/blob/master/README.md#algorithm-testing) |
+| 0d. | Running it | We deployed on the [Jungle 3 and CryptoKylin testnets](https://github.com/ZeroPass/antelope.ck/blob/master/README.md#testnet). |
+| 1. | [Antelope SDK library](https://github.com/ZeroPass/antelope.ck) | Open-source cryptography library with RSA PKCS v1.5 signature verification algorithm and Keccak hash algorithms: SHA3-256, SHA3-512, SHAKE-128 and SHAKE-256. |
 
 **Additional Information**  
 /
