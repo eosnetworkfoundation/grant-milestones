@@ -24,4 +24,4 @@ All updated cryptosystems are switching to RSASSA-PSS.
 | 1. | [Antelope SDK library](https://github.com/ZeroPass/antelope.ck) | Open-source cryptography library with RSA PKCS v1.5 signature verification algorithm and Keccak hash algorithms: SHA3-256, SHA3-512, SHAKE-128 and SHAKE-256. |
 
 **Additional Information**  
-/
+The project is only partly renamed. We will rename it fully (in the code) when cdt does it to follow the naming conventions. Probably eosiock -> antelopeck. 
