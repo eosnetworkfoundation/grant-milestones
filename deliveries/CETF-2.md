@@ -7,7 +7,7 @@
 
 **Context**
 
-Main objective of this milestone was to configure and deploy Phase 2 contracts and front-end to the mainnet. 6 msigs were executed to complete the migration. Took us much longer than initially planned because of additional fixes and refactoring of the contracts. Migration was successful, all the features have been tested and are functional. We've also onboarded three fund managers who are responsible for managing the EOSETF. 
+Main objective of this milestone was to configure and deploy Phase 2 contracts and front-end to the mainnet. 6 msigs were executed to complete the migration. Took us much longer than initially planned because of additional fixes and refactoring of the contracts (wanted to compile contracts using DUNE but run into errors https://github.com/AntelopeIO/DUNE/issues/12). Migration was successful, all the features have been tested and are functional. We've also onboarded three fund managers who are responsible for managing the EOSETF. 
 
 **Deliverables**
 
