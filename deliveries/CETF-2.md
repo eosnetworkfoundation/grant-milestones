@@ -7,7 +7,7 @@
 
 **Context**
 
-Main objective of this milestone was to configure and deploy Phase 2 contracts and front-end to the mainnet. 6 msigs were executed to complete the migration. Took us much longer than initially planned because of additional fixes and refactoring of the contracts (wanted to compile contracts using DUNE but run into errors https://github.com/AntelopeIO/DUNE/issues/12). Migration was successful, all the features have been tested and are functional. We've also been on-boarding fund managers whose responsibility is to manage the EOSETF. First manager has been whitelisted (gluedog) and there's discussion with Phantom Puppeteer and Trimbot as potential additional managers. 
+Main objective of this milestone was to configure and deploy Phase 2 contracts and front-end to the mainnet. 6 msigs were executed to complete the migration. Took us much longer than initially planned because of additional fixes and refactoring of the contracts (wanted to compile contracts using DUNE but run into errors https://github.com/AntelopeIO/DUNE/issues/12). Refactored contracts can be found here: https://github.com/n0umen0n/cetfphase2. Migration was successful, all the features have been tested and are functional. We've also been on-boarding fund managers whose responsibility is to manage the EOSETF. First manager has been whitelisted (gluedog) and there's discussion with Phantom Puppeteer and Trimbot as potential additional managers. 
 
 **Deliverables**
 
