@@ -13,7 +13,7 @@
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
 | 1. | npm | <https://www.npmjs.com/package/@tonomy/antelope-ssi-toolkit> |  |
-| 1. | article | <https://blog.tonomy.foundation/verifiable-credentials-with-provable-delegated-and-multi-sig-signatures-e46ca74d7d87> and TODO |  |
+| 1. | article | <https://blog.tonomy.foundation/issue-and-verifying-verifiable-credentials-with-an-antelope-account-d1b4e76bfba0> and <https://blog.tonomy.foundation/verifiable-credentials-with-provable-delegated-and-multi-sig-signatures-e46ca74d7d87> |  |
 | 1. | Implementation of verify() function | <https://github.com/Tonomy-Foundation/Antelope-SSI-Toolkit/blob/d329fe93493e262f16d0e80fd89c1f5fb2fddceb/src/credentials.ts#L49> |  |
 | 2. | Documentation and publish | [github.com/Tonomy-Foundation/Antelope-SSI-Toolkit](https://github.com/Tonomy-Foundation/Antelope-SSI-Toolkit/tree/d329fe93493e262f16d0e80fd89c1f5fb2fddceb) and <https://www.npmjs.com/package/@tonomy/antelope-ssi-toolkit> |  |
 
