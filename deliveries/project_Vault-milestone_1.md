@@ -7,7 +7,7 @@
 
 **Context**
 
-The deliverables in this milestone represent the core functional description of the Treasury contract. This includes contract api documentation, contract code files, and product design processes. The next milestone contains automated test cases for contracts, user action documentation.
+The deliverables in this milestone represent the core functional description of the vault contract. This includes contract api documentation, contract code files, and product design process. The next milestone contains automated test cases for contracts, user action documentation.
 **Deliverables**
 
 | Number | Deliverable                  | Link                                                                          | Notes                                                                   |
