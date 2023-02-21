@@ -2,7 +2,7 @@
 
 **The [invoice form] has been filled out correctly for this milestone and the delivery is according to the official [milestone delivery guidelines](https://github.com/eosnetworkfoundation/grant-framework/blob/master/docs/milestone-deliverables-guidelines.md).**
 
-* **Application Document:** [Vault project](https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/Defibox_vault.md)
+* **Application Document:** [Defibox Vault](https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/Defibox_vault.md)
 * **Milestone Number:** 1
 
 **Context**
