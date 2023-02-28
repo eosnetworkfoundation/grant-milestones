@@ -20,7 +20,7 @@ This will allow defining higher-level cryptography EC algorithms (e.g. ECDSA ver
 | 0a. | License | [MIT LICENSE](https://github.com/ZeroPass/antelope.ck/tree/688e6c97a2dd8d70784fec8f0f3cd3bef08b40ca/LICENSE) | 
 | 0b. | Documentation | Documentation and step by step guide in [README.md](https://github.com/ZeroPass/antelope.ck/tree/688e6c97a2dd8d70784fec8f0f3cd3bef08b40ca/README.md).| 
 | 0c. | Testing Guide | [Section in the guide](https://github.com/ZeroPass/antelope.ck/tree/688e6c97a2dd8d70784fec8f0f3cd3bef08b40ca/README.md#algorithm-testing) |
-| 0d. | Running it | We deployed on the [Jungle 3, Jungle 4 and CryptoKylin testnets](https://github.com/ZeroPass/antelope.ck/tree/688e6c97a2dd8d70784fec8f0f3cd3bef08b40ca/README.md#testnet). |
+| 0d. | Running it | We deployed on the [Jungle 4 testnet](https://jungle4.eosq.eosnation.io/tx/7ed2829fdb40463d03f0639ba7b18d8fa39b2d2e2b50a3d1a004f024901f13fc). |
 | 1a. | [Antelope SDK library](https://github.com/ZeroPass/antelope.ck/tree/688e6c97a2dd8d70784fec8f0f3cd3bef08b40ca) | General-purpose math primitives (i.e. addition, multiplication, inverse etc…)  for elliptic curve arithmetics over an arbitrary finite field. Build inside EOSVM and using no OC flag |
 | 1b. | [Antelope SDK library](https://github.com/ZeroPass/antelope.ck/tree/688e6c97a2dd8d70784fec8f0f3cd3bef08b40ca) | EOSIO SDK library | General-purpose math primitives (i.e. addition, multiplication, inverse etc…)  for elliptic curve arithmetics over an arbitrary finite field. Build inside EOSVM and using OC flag (optional*)|
 | 2a. | [Antelope SDK library](https://github.com/ZeroPass/antelope.ck/tree/688e6c97a2dd8d70784fec8f0f3cd3bef08b40ca) |  Example implementation for **Secp256r1**. Build inside EOSVM and using no OC flag|
