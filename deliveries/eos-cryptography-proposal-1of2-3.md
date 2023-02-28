@@ -42,4 +42,4 @@ secp256r1 |   30+ ms  |   7-8 ms   |     1.6 ms
 The modular exponentiation for RSA and RSASSA-PSS was moved from in library to the intrinsic, to further imrpove the preformance of Delivery 1 and Delivery 2.
 
 **Additional Information**  
-More detailed explanation will follow in the comments below.
+More detailed explanation will follow in the comment section below.
