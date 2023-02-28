@@ -30,7 +30,7 @@ This will allow defining higher-level EC cryptography algorithms (e.g. ECDSA ver
 
  OC implementation turned out to be performant enough (<10ms) all deliverables are implemented to and including .b points (1.b, 2.b, 3.b).
 
-**as stated in the grant \*;** 
+**as stated in the grant:**   
 ***- If deliverable 1b will be preformant enough, we won't deliver deliver 1c, only deliverable 1a and 1b. Same logic applies to coresponding Example implementation for **Secp256r1** and their benchmarking.***
 
 **Bonus delivery**  
