@@ -33,10 +33,10 @@ This will allow defining higher-level EC cryptography algorithms (e.g. ECDSA ver
 *as stated in the grant:   
 *If deliverable 1b will be preformant enough, we won't deliver deliver 1c, only deliverable 1a and 1b. Same logic applies to coresponding Example implementation for Secp256r1 and their benchmarking.*
 
-curve     |  WASM OC    |     native
-| -----: | ----------- | ------------- |
-secp256k1 |     6-7 ms  |     1.2 ms      
-secp256r1 |     7-8 ms  |     1.6 ms
+curve      |  WASM    |  WASM OC    |     native
+| -----: |:------------:|:-----------:|:--------:|
+secp256k1 |   30+ ms  |   6-7 ms   |     1.2 ms      
+secp256r1 |   30+ ms  |   7-8 ms   |     1.6 ms
 
 **Bonus delivery**  
 The modular exponentiation for RSA and RSASSA-PSS was moved from in library to the intrinsic, to further imrpove the preformance of Delivery 1 and Delivery 2.
