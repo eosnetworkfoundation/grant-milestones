@@ -10,7 +10,7 @@
 * **Contact email:** zeropass@pm.me
 
 **Context**  
-General-purpose math primitives (i.e. addition, multiplication, inverse etc…) for elliptic curve arithmetics over a prime field, its example emplementation and benchmark.
+General-purpose math primitives (i.e. addition, multiplication, inverse etc…) for elliptic curve arithmetics over a prime field, its example implementation and benchmark.
 This will allow defining higher-level cryptography EC algorithms (e.g. ECDSA verification algo) on custom elliptic curves in smart contract. The primitives will be built on top of the existing secure and audited EC cryptography library.
 
 **Deliverables**
