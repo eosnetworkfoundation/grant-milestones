@@ -18,8 +18,8 @@ This will allow defining higher-level EC cryptography algorithms (e.g. ECDSA ver
 | Number | Deliverable | Link/Notes |
 | -----: | ----------- | ------------- |
 | 0a. | License | [MIT LICENSE](https://github.com/ZeroPass/ack/blob/master/LICENSE) | 
-| 0b. | Documentation | Documentation and step by step guide in [README.md](https://github.com/ZeroPass/antelope.ck/tree/688e6c97a2dd8d70784fec8f0f3cd3bef08b40ca/README.md).| 
-| 0c. | Testing Guide | [Section in the guide](https://github.com/ZeroPass/antelope.ck/tree/688e6c97a2dd8d70784fec8f0f3cd3bef08b40ca/README.md#algorithm-testing) |
+| 0b. | Documentation | Documentation and step by step guide in [README.md](https://github.com/ZeroPass/ack/blob/master/README.md).| 
+| 0c. | Testing Guide | [Section in the guide](https://github.com/ZeroPass/ack/blob/master/README.md#algorithm-testing) |
 | 0d. | Running it | We deployed on the [Jungle 4 testnet](https://jungle4.eosq.eosnation.io/tx/7ed2829fdb40463d03f0639ba7b18d8fa39b2d2e2b50a3d1a004f024901f13fc) the [example contract](https://jungle4.eosq.eosnation.io/account/helloeosiock). |
 | 1a. | [Antelope SDK library](https://github.com/ZeroPass/ack/pull/5) | General-purpose math primitives (i.e. addition, multiplication, inverse etc…) for elliptic curve arithmetics over finite field GF(p). Build inside EOSVM and using no OC flag |
 | 1b. | [Antelope SDK library](https://github.com/ZeroPass/ack/pull/5) | General-purpose math primitives (i.e. addition, multiplication, inverse etc…)  for elliptic curve arithmetics over an finite field GF(p). Build inside EOSVM and using OC flag (optional*)|
