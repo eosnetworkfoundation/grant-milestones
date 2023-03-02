@@ -20,7 +20,7 @@ This will allow defining higher-level EC cryptography algorithms (e.g. ECDSA ver
 | 0a. | License | [MIT LICENSE](https://github.com/ZeroPass/ack/blob/master/LICENSE) | 
 | 0b. | Documentation | Documentation and step by step guide in [README.md](https://github.com/ZeroPass/ack/blob/master/README.md).| 
 | 0c. | Testing Guide | [Section in the guide](https://github.com/ZeroPass/ack/blob/master/README.md#algorithm-testing) |
-| 0d. | Running it | We deployed on the [Jungle 4 testnet](https://jungle4.eosq.eosnation.io/tx/7ed2829fdb40463d03f0639ba7b18d8fa39b2d2e2b50a3d1a004f024901f13fc) the [example contract](https://jungle4.eosq.eosnation.io/account/helloeosiock). |
+| 0d. | Running it | We deployed on the [Jungle 4 testnet](https://jungle4.eosq.eosnation.io/account/helloeosiock) the [example contract](https://github.com/ZeroPass/ack/tree/develop/examples/helloack). |
 | 1a. | [Antelope SDK library](https://github.com/ZeroPass/ack/pull/5) | General-purpose math primitives (i.e. addition, multiplication, inverse etc…) for elliptic curve arithmetics over finite field GF(p). Build inside EOSVM and using no OC flag |
 | 1b. | [Antelope SDK library](https://github.com/ZeroPass/ack/pull/5) | General-purpose math primitives (i.e. addition, multiplication, inverse etc…)  for elliptic curve arithmetics over an finite field GF(p). Build inside EOSVM and using OC flag (optional*)|
 | 2a. | [Antelope SDK library](https://github.com/ZeroPass/ack/pull/5) |  Example implementation for **Secp256r1**. Build inside EOSVM and using no OC flag|
@@ -35,10 +35,9 @@ This will allow defining higher-level EC cryptography algorithms (e.g. ECDSA ver
 
 curve      |  WASM    |  WASM OC    |     native reference
 | -----: |:------------:|:-----------:|:--------:|
-secp256k1 |   30+ ms  |   6-7 ms   |     1.2 ms      
-secp256r1 |   30+ ms  |   7-8 ms   |     1.6 ms
-* on a cheap VM (AMD) instance
-
+secp256k1 |   30+ ms  |   ~6 ms   |     1.1 ms      
+secp256r1 |   30+ ms  |   ~7 ms   |     1.5 ms
+* on a cheap VM instance (AMD)
 
 
 **Bonus delivery**  
