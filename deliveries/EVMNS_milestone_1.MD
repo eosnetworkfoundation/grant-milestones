@@ -29,4 +29,4 @@ Please refer to our public [repo for this proejct](https://github.com/evmns/EVMN
 | 2. | Release official website| [evmns.space](https://evmns.space)                                                                                                                                                                                                                                                                                                              |Including project introduction, Roadmap and other content.|  
 
 
-> This project initially had 5 miletones but based on feedback on the inital proposal it was condensed to 1 milestone. Therefore, this project is now at completion. 
+>
