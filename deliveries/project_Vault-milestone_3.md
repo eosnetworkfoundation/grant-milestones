@@ -4,6 +4,9 @@
 
 * **Application Document:** [Defibox Vault](https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/Defibox_vault.md)
 * **Milestone Number:** 3
+* **Milestone Payment Amount:** $17,000 USD
+* **Contact Name:** Raven
+* **Contact email:** raven@defibox.io
 
 **Context**
 
