@@ -6,9 +6,9 @@
 - **EOS Account:** delightlabs1
 - **Previously successfully merged evaluation:** N/A
 
-| Number | Deliverable | Accepted | Link | Evaluation Notes |
-| ------ | ----------- | -------- | ---- |----------------- |
-| 1. | Research report |<ul><li>[X] EOSVM API analysis</li><li>[X] Antelope code structure research | Within this document |  |
+| Number | Deliverable     | Accepted                                                                    | Link                 | Evaluation Notes |
+|--------|-----------------|-----------------------------------------------------------------------------|----------------------|------------------|
+| 1.     | Research report | <ul><li>[X] EOSVM API analysis</li><li>[X] Antelope code structure research | Within this document |                  |
 
 ## General Notes
 
@@ -20,7 +20,7 @@
 
  The first point is whether EOSVM can run all WebAssembly (WASM) specifications. We believe this could demonstrate the potential of utilizing CosmWasm. Next, we compared CosmWasm and Antelope CDT in order to check which could be improved and which needed more. Finally, we investigated whether Wasmer could be integrated into the core to ensure CosmWasm-Wasmer integration in case CosmWasm does not run on EOSVM.
 
- In summary, we’ve confirmed that Rust CDT can be built on EOSVM and it also can leverage Cosmwasm to its development. Based on the analysis in this report, we would love to move forward with the development of Rust CDT. We aim to develop Rust CDT on top of EOSVM, but also want to leave room for Wasmer integration in case of unforeseen constraints. The benefits of a Rust-based smart contract platform, including improved security and developer productivity, outweigh the costs of implementation. Rust CDT would provide EOS developers with more options and flexibility, and help EOS remain competitive as blockchain technologies continue to evolve.
+ In summary, we’ve confirmed that Rust CDT can be built on EOSVM, and it also can leverage Cosmwasm to its development. Based on the analysis in this report, we would love to move forward with the development of Rust CDT. We aim to develop Rust CDT on top of EOSVM, but also want to leave room for Wasmer integration in case of unforeseen constraints. The benefits of a Rust-based smart contract platform, including improved security and developer productivity, outweigh the costs of implementation. Rust CDT would provide EOS developers with more options and flexibility, and help EOS remain competitive as blockchain technologies continue to evolve.
 
 ### Case 1: The wasm specification coverage in EOSVM
 
@@ -313,17 +313,56 @@ Despite the contract system in Antelope is sophisticated, the number of develope
 #### Cost
 
 In the case of enabling CosmWasm-based contracts, the estimated cost is approximately **USD 225K**. This cost includes:
+- Resources: project manager 1, software engineer 2(core, sdk), QA engineer 1, technical writer 1
+- Tasks
+  - Development and Testing: USD 180K
+    - Antelope core
+      - develop wasm module for Cosmwasm
+      - Cosmwasm interface adapter implementation
+    - Contract SDK
+      - Cosmwasm EOS integration
+    - EOSVM
+      - Backend development for byte support
+    - QA
+      - Integration test method (25 wd)
+        - Use the template contracts from Cosmwasm
+          - Simple CW20 contract deploy, mint, transfer
+          - Simple CW721 contract deploy, mint, transfer
+          - Simple escrow contract using CW20 tokens
+          - Staking contract deploy, CW20 token stake/unstake using CW20 tokens
+        - Testnet (20 wd)
+          - Organize small multi-node internal network and run the integration tests
+          - If stable, request to ship on Jungle testnet and proof its stability
+  - Documentation: USD 20K
+    - module specification (8 wd)
+    - development guideline (12 wd)
+  - Project management: USD 25K
 
-- Development and Testing: USD 180K
-  - Antelope core side
-  - EOSVM modification
-  - Contract SDK
-- Documentation: USD 20K
-- Project management: USD 25K
+The simple Gantt chart below outlines a timeline, approximately 3 months for development and 2 months for testing and documentation. The timeline of each development task on the core and SDK is roughly estimated as it will depend on how much the Antelope core will adopt Cosmwasm interface. For this decision, we will set a milestone at the start of the project to analyze the impact of different directions of interface application.
 
-The timeline is approximately 3 months for development and 2 months for testing and documentation.
+| Task / week                  | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  |
+|------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Antelope core                |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| - wasm module for Cosmwasm   | `-` | `-` | `-` | `-` | `-` |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| - Cosmwasm interface adapter |     |     |     |     |     | `-` | `-` | `-` | `-` |     |     |     |     |     |     |     |     |     |     |     |
+| Contract SDK                 |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| - EOS integration            |     |     |     |     |     |     |     | `-` | `-` | `-` | `-` |     |     |     |     |     |     |     |     |     |
+| Integration Test             |     |     |     |     |     |     |     |     |     |     |     | `-` | `-` | `-` | `-` | `-` |     |     |     |     |
+| Testnet Deployment           |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     | `-` | `-` | `-` | `-` |
+| Documentation                |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| - module specification       |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     | `-` |     |     |     |
+| - development guideline      |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     | `-` | `-` | `-` | `-` |
 
-In addition, we estimated **USD 40K / yr** for the repository maintenance. This budget would continue before the community’s active contribution, or technical follow-up for other maintenance entity.
+- Backlog
+  - Contract interaction between Antelope contract and Cosmwasm contract
+
+In addition, we estimated **USD 40K / yr** for the repository maintenance. The maintenance includes resources and tasks as described below and this budget would continue before the community’s active contribution, or technical follow-up for other maintenance entity.
+- Resources: software engineer 2(core, sdk), technical writer 1
+- Tasks
+  - support Cosmwasm upgrade
+  - bug fix
+  - testing process improvement
+  - documents' update regarding the works above
 
 ### Appendix: Implement Rust CDT following current Antelope CDT
 
