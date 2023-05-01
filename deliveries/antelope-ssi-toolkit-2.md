@@ -3,7 +3,7 @@
 **The [invoice form](https://forms.gle/wLuAzXKa9qYrZQob9) has been filled out correctly for this milestone and the delivery is according to the official [milestone delivery guidelines](https://github.com/eosnetworkfoundation/grant-framework/blob/master/docs/milestone-deliverables-guidelines.md).**  
 
 * **Application Document:** <https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/ssi-toolkit-verifiable-credentials.md>
-* **Milestone Number:** 1
+* **Milestone Number:** 2
 * **Milestone Payment Amount:** $18,000 USD
 * **Contact Name:** Jack Tanner
 * **Contact email:** contact@tonomy.foundation
