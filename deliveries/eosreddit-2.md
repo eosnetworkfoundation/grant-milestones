@@ -12,7 +12,7 @@ Milestone Delivery
 * **Application Document:** [Please, provide a link to the merged contract (the `.md` file in the [applications](https://github.com/eosnetworkfoundation/grant-framework/tree/master/applications) directory).](https://github.com/eosnetworkfoundation/grant-framework/pull/131)
 * **Milestone Number:** 1
 * **Milestone Payment Amount:** $10,000 USD
-* **Contact Name:** Verónica Coromoto Díaz Dura.
+* **Contact Name:** Verónica Coromoto Díaz Duran.
 * **Contact email:** veronica14diazdiaz@gmail.com
 
 **Context** (optional)
@@ -25,8 +25,12 @@ Milestone Delivery
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1. | ... |...| ...| 
-| 2.  | ... |...| ...| 
+| 0a. | increased upvote and karma to daily posts | [Reddit EOS](https://www.reddit.com/r/eos/) | ...| 
+| 0b.  | Documentation | [Metrics and Reports.](https://bywire.news/u/eos_vision)| A report will be published each month. | 
+| 0c.  | Statistics and analysis on the growth of Reddit and Facebook | [Reddit analytics.](https://www.reddit.com/mod/eos/insights)| ...| 
+| 0d.  | attention and moderation of networks | [Moderation Groups for Networks Facebook and Reddit](https://t.me/+wOj4kFIjOhQzYzIx) | Coordination of moderators in the different groups on networks. | 
+| 0e.  | Attention and translation in languages. | [Customer service in languages](https://eossupport.io/) | Support and Attention through EOS SUPPORT. With guides, articles and in different languages. | 
+| 1.  | Growth of the official ENF account on Reddit and Post on Facebook. | [Reddit ENF.](https://www.reddit.com/user/EOSNetworkFoundation/) |  Reddit is already supported by ENF and we plan to continue promoting their networks and their posts for increased users and relevant content from EOS and Antelope. | 
 
 **Additional Information**
 > EOS VISION is also working on Facebook to encourage development and encourage people to read all about the new EOS.
