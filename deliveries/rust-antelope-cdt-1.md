@@ -66,6 +66,20 @@
   - The name of the function exposed: `instantiate`, `execute`, `query`, `migrate`
   - Prototype: `func (param i32 i32 i32) (result i32)`
 
+#### Flow correspondence with Antelope
+
+- Compiled WASM -> `setcode`
+  - Upload WASM binary on the transaction
+  - Execute `instantiate` (need to research of developers' UX)
+- No `setabi` needed - compiled contract binary contains JSON Serde
+- Additional `instantiate` execution could be needed
+  - In case of parametrized instantiation
+- General execution
+  - Trigger `execute` with parameters
+- Table querying
+  - Case 1: `Map()` of Cosmwasm SDK is a quite similar implementation of table in Antelope
+  - Case 2: Auto-generate a getter of each `Map()` by key in compile stage
+
 #### Input parameter description
 
 - Antelope CDT
