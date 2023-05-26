@@ -80,6 +80,32 @@
   - Case 1: `Map()` of Cosmwasm SDK is a quite similar implementation of table in Antelope
   - Case 2: Auto-generate a getter of each `Map()` by key in compile stage
 
+#### Host function implementation
+
+- Account validation
+  - `addr_validate`
+    - Validates account from string input
+    - Can connect to `name` constructor logic
+  - `addr_canonicalize`
+    - Parses account from string object
+    - Can correspond to `name` constructor
+  - `addr_humanize`
+    - Converts account object to string
+    - Can connect to `{name}.to_string()`
+- DB scan
+  - `db_scan`
+    - Creates DB iterator
+    - Partial logic would be contained in the table constructor
+  - `db_next`
+    - Iteration logic
+    - Can correspond to `db_next_i64()`
+  - `db_read`, `db_write`, `db_remove`
+    - Can correspond to each `db_find_i64()`, `db_update_i64()`, `db_remove_i64()`
+- Cryptography
+  - `secp256k1_*`, `ed25519_*`
+  - Cryptographic logic is not used inside the Antelope contract
+  - Should be deleted or replaced with the new Rust SDK.
+
 #### Input parameter description
 
 - Antelope CDT
