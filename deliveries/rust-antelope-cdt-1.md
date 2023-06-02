@@ -40,7 +40,6 @@
 #### Other unique implementations
 
  We’ve found that there is one another limit when running WASM on EOSVM, where only number types are allowed in:
-
 - functions’ locals, parameters and returns
 - global’s content
 - block/if/loop’s returns
@@ -68,17 +67,13 @@
 
 #### Flow correspondence with Antelope
 
-- Compiled WASM -> `setcode`
-  - Upload WASM binary on the transaction
-  - Execute `instantiate` (need to research of developers' UX)
-- No `setabi` needed - compiled contract binary contains JSON Serde
-- Additional `instantiate` execution could be needed
-  - In case of parametrized instantiation
-- General execution
-  - Trigger `execute` with parameters
-- Table querying
-  - Case 1: `Map()` of Cosmwasm SDK is a quite similar implementation of table in Antelope
-  - Case 2: Auto-generate a getter of each `Map()` by key in compile stage
+The correspondence of the flow from wasm to execution is described as follows. Cosmwasm's compilation is executed by Rust compiler and the difference of specification has described in the section of case 1.
+
+| Antelope CDT                      | Cosmwasm                                                                                                | To be done                                                                                                                                                                                                                                              | 
+|-----------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| upload WASM binary to the network | these below two steps are separated transactions<br/>1. upload WASM binary<br/>2. initialize a contract | - instantiate the Cosmwasm contract in Antelope core in addition, and this requires executing vm when registering, which doesn't at this moment<br/>- additional explicit `instantiate` execution may be required in case of parametrized instantiation | 
+| execute a contract's function     | trigger `execute` function with parameters                                                              |                                                                                                                                                                                                                                                         | 
+| query tables in a contract        | trigger `query` functions without generating a new transaction                                          | Cosmwasm's query feature other than table querying is restricted due to the network's support<br/>- Case 1: `Map()` implementation in Cosmwasm SDK<br/> - Case 2: Auto-generate a getter of each `Map()` by key in compile stage                        |
 
 #### Host function implementation
 
