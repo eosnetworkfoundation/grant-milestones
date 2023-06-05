@@ -16,7 +16,7 @@ Our Mission with this Milestone is to Educate, inform and promote the world of c
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
 | 0a. | increased upvote and karma to daily posts | [Reddit EOS](https://www.reddit.com/r/eos/) | ...| 
-| 0b.  | Documentation | [Metrics and Reports.](https://bywire.news/u/eos_vision)| A report will be published each month. | 
+| 0b.  | Documentation | [Metrics and Reports.](https://docs.google.com/document/d/1CgJppRL8UBDaCgQyEDy72GgndY0TE3_vi1sWTjtDCyU/edit?usp=sharing))| A report will be published each month. | 
 | 0c.  | Statistics and analysis on the growth of Reddit and Facebook | [Reddit analytics.](https://www.reddit.com/mod/eos/insights)| ...| 
 | 0d.  | attention and moderation of networks | [Moderation Groups for Networks Facebook and Reddit](https://t.me/+wOj4kFIjOhQzYzIx) | Coordination of moderators in the different groups on networks. | 
 | 0e.  | Attention and translation in languages. | [Customer service in languages](https://eossupport.io/) | Support and Attention through EOS SUPPORT. With guides, articles and in different languages. | 
