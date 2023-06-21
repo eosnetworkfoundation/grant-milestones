@@ -87,6 +87,15 @@ The correspondence of the flow from wasm to execution is described as follows. C
   - `addr_humanize`
     - Converts account object to string
     - Can connect to `{name}.to_string()`
+- DB host function implementation
+  - Antelope
+    - DB storage: `std::vector<boost::tuple>`
+    - DB host function: returns `int` (as 32bit-based pointer address of char*)
+  - Cosmwasm
+    - DB storage: Any key-value based DB
+    - DB host function: returns `u32` (unsigned 32 bit pointer)
+  - Both VMs allocate the DB record data into the contract-specific memory area of the VM, and the contract looks up it, which is to the same behavior.
+  - The host functions of Antelope could be reused in a Cosmwasm contract.
 - DB scan
   - `db_scan`
     - Creates DB iterator
