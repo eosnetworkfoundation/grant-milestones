@@ -2,8 +2,8 @@
 
 **The [invoice form](https://forms.gle/wLuAzXKa9qYrZQob9) has been filled out correctly for this milestone and the delivery is according to the official [milestone delivery guidelines](deliveries/milestone-delivery-template.md).**  
 
-* **Application Document:** Please, provide a link to the merged contract (the `.md` file in the [applications](deliveries/milestone-delivery-template.md) directory).
-* **Milestone Number:** e.g. 1
+* **Application Document:** [TrustSwap](https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/trustswap.md)
+* **Milestone Number:**  1
 * **Milestone Payment Amount:** $10,00 USD
 * **Contact Name:** Esteban Saa
 * **Contact email:** steban@gmail.com
