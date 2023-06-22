@@ -23,4 +23,4 @@ The project outlined on the grant is fully delivered. It was ready within 2 days
 
 
 ## Additional Information
-Thankful for the oportunity and patience of everyone on the EOS community and looking forward on bringing new code and ideas to EOS EVM.
+Thankful for the opportunity and patience of everyone in the EOS community and looking forward to bringing new code and ideas to EOS EVM.
