@@ -54,7 +54,7 @@
 
 ### Case 2: The comparison between Cosmwasm and Antelope CDT
 
- In the case that the VM side does not have any constraints for developing a Rust CDT, described in Case 1, the difference between Cosmwasm and Antelope CDT is critical to measure the size of implementation. Here, we compared them in terms of entry point and functionality. Compiler development such as attributes in clang and linker is excluded, which is mandatory.
+ Given that the VM side does not have any constraints for developing a Rust CDT as described in Case 1, the difference between Cosmwasm and Antelope CDT is critical to measure the size of implementation. Here, we compared them in terms of entry point and functionality. Compiler development such as attributes in clang and linker is excluded, which is mandatory.
 
 #### Function formats
 
@@ -69,11 +69,11 @@
 
 The correspondence of the flow from wasm to execution is described as follows. Cosmwasm's compilation is executed by Rust compiler and the difference of specification has described in the section of case 1.
 
-| Antelope CDT                      | Cosmwasm                                                                                                | To be done                                                                                                                                                                                                                                              | 
-|-----------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| upload WASM binary to the network | these below two steps are separated transactions<br/>1. upload WASM binary<br/>2. initialize a contract | - instantiate the Cosmwasm contract in Antelope core in addition, and this requires executing vm when registering, which doesn't at this moment<br/>- additional explicit `instantiate` execution may be required in case of parametrized instantiation | 
-| execute a contract's function     | trigger `execute` function with parameters                                                              |                                                                                                                                                                                                                                                         | 
-| query tables in a contract        | trigger `query` functions without generating a new transaction                                          | Cosmwasm's query feature other than table querying is restricted due to the network's support<br/>- Case 1: `Map()` implementation in Cosmwasm SDK<br/> - Case 2: Auto-generate a getter of each `Map()` by key in compile stage                        |
+| Antelope CDT                      | Cosmwasm                                                                                              | To be done                                                                                                                                                                                                          | 
+|-----------------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| upload WASM binary to the network | Two separated transactions are needed in order<br/>1. upload WASM binary<br/>2. initialize a contract | - instantiate a Cosmwasm contract in Antelope core in addition, and this requires executing vm when registering<br/>- additional explicit `instantiate` execution is required in case of parametrized instantiation | 
+| execute a contract's function     | trigger `execute` function with parameters                                                            |                                                                                                                                                                                                                     | 
+| query tables in a contract        | trigger `query` functions without generating a new transaction                                        | - auto-generate a getter of each table by key in compile stage                                                                                                                                                      |
 
 #### Host function implementation
 
