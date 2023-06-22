@@ -18,8 +18,8 @@ The project outlined on the grant is fully delivered. It was ready within 2 days
 |0a.| License |	MIT |
 |0b.| Documentation | https://docs.frogge.finance | Documentation |	We will provide both inline documentation of the code and a basic tutorial that explains how to configure TrustEVM and use TrustSwap
 |0c.| Testing Guide	| https://github.com/evm20/v2-core/tree/master/test | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests.
-|0d.| Front-end Deployment | https://github.com/evm20/interface |	We will provide a repository with instructions on how to deploy the frontend.
-|0e.| Article | https://docs.frogge.finance/how-it-works | We will publish an article that explains how the different components of the platform are connected to make the platform work
+|0d.| Front-end Deployment | https://github.com/evm20/interface | We will provide a repository with instructions on how to deploy the frontend.
+|0e.| Article | https://docs.frogge.finance/article | We will publish an article that explains how the different components of the platform are connected to make the platform work
 
 
 ## Additional Information
