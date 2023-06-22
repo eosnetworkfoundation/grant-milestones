@@ -40,7 +40,6 @@
 #### Other unique implementations
 
  We’ve found that there is one another limit when running WASM on EOSVM, where only number types are allowed in:
-
 - functions’ locals, parameters and returns
 - global’s content
 - block/if/loop’s returns
@@ -55,7 +54,7 @@
 
 ### Case 2: The comparison between Cosmwasm and Antelope CDT
 
- In the case that the VM side does not have any constraints for developing a Rust CDT, described in Case 1, the difference between Cosmwasm and Antelope CDT is critical to measure the size of implementation. Here, we compared them in terms of entry point and functionality. Compiler development such as attributes in clang and linker is excluded, which is mandatory.
+ Given that the VM side does not have any constraints for developing a Rust CDT as described in Case 1, the difference between Cosmwasm and Antelope CDT is critical to measure the size of implementation. Here, we compared them in terms of entry point and functionality. Compiler development such as attributes in clang and linker is excluded, which is mandatory.
 
 #### Function formats
 
@@ -65,6 +64,51 @@
 - Cosmwasm
   - The name of the function exposed: `instantiate`, `execute`, `query`, `migrate`
   - Prototype: `func (param i32 i32 i32) (result i32)`
+
+#### Flow correspondence with Antelope
+
+The correspondence of the flow from wasm to execution is described as follows. Cosmwasm's compilation is executed by Rust compiler and the difference of specification has described in the section of case 1.
+
+| Antelope CDT                      | Cosmwasm                                                                                              | To be done                                                                                                                                                                                                          | 
+|-----------------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| upload WASM binary to the network | Two separated transactions are needed in order<br/>1. upload WASM binary<br/>2. initialize a contract | - instantiate a Cosmwasm contract in Antelope core in addition, and this requires executing vm when registering<br/>- additional explicit `instantiate` execution is required in case of parametrized instantiation | 
+| execute a contract's function     | trigger `execute` function with parameters                                                            |                                                                                                                                                                                                                     | 
+| query tables in a contract        | trigger `query` functions without generating a new transaction                                        | - auto-generate a getter of each table by key in compile stage                                                                                                                                                      |
+
+#### Host function implementation
+
+- Account validation
+  - `addr_validate`
+    - Validates account from string input
+    - Can connect to `name` constructor logic
+  - `addr_canonicalize`
+    - Parses account from string object
+    - Can correspond to `name` constructor
+  - `addr_humanize`
+    - Converts account object to string
+    - Can connect to `{name}.to_string()`
+- DB host function implementation
+  - Antelope
+    - DB storage: `std::vector<boost::tuple>`
+    - DB host function: returns `int` (as 32bit-based pointer address of char*)
+  - Cosmwasm
+    - DB storage: Any key-value based DB
+    - DB host function: returns `u32` (unsigned 32 bit pointer)
+  - Both VMs allocate the DB record data into the contract-specific memory area of the VM, and the contract looks up it, which is to the same behavior.
+  - The host functions of Antelope could be reused in a Cosmwasm contract.
+- DB scan
+  - `db_scan`
+    - Creates DB iterator
+    - Partial logic would be contained in the table constructor
+  - `db_next`
+    - Iteration logic
+    - Can correspond to `db_next_i64()`
+  - `db_read`, `db_write`, `db_remove`
+    - Can correspond to each `db_find_i64()`, `db_update_i64()`, `db_remove_i64()`
+- Cryptography
+  - `secp256k1_*`, `ed25519_*`
+  - Cryptographic logic is not used inside the Antelope contract
+  - Should be deleted or replaced with the new Rust SDK.
 
 #### Input parameter description
 
