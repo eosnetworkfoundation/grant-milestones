@@ -59,10 +59,16 @@ Below are the list of new Neutroswap V2 contract:
 - **NeutroHelper**<br/> 
   Serving data to the frontend, for example to calculate APR, dollar value of the pool, and etc.
 
-> No changes required on our legacy contract, but the introduction of V2 tokenomics require some adjustment on $NEUTRO emission stored in our ERC-20 variables
+> The legacy NeutroChef contract would stop its emission, and all $NEUTRO emission will be handled by the new NeutroMaster contract we mentioned above.
 
 ### Subgraph Migration Plan
-WIP
+No changes are required on our legacy subgraph, but there's two additional subgraph we should build:
+
+- **NFT Pool Subgraph**<br/> 
+  This subgraph is responsible to index all NFT pool created by user from our contract. In relationship, this subgraph will also track the relationship between Nitro pool and NFT pool.
+
+- **FairAuction Subgraph**<br/> 
+  The main use of this subgraph is to track contribution and index price change on our FairAuction contract. This subgraph also serve detailed information about the fair auction (launchpad).
 
 ### High Fidelity Prototype
 Neutroswap V2 high fidelity prototype is available [here](https://www.figma.com/file/gkw76rgPT3CWqALsY51FEq/Neutroswap-V2-High-Fidelity-Prototype?type=design&node-id=0%3A1&mode=design&t=lZmmvo17eMou581J-1)
