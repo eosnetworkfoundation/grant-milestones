@@ -19,7 +19,7 @@ For *Milestone 0 - Requirement Analysis* completion
 | 0a. | License | MIT |  |
 | 0b. | Threads | [Twitter Thread](https://typefully.com/t/GWAxzwj) | The link given here is just a typefully draft and will be released to the public at our marketing schedule |
 | 1. | General Requirement and Migration Plan | Within this document | Unpacking smart contract requirements, migration plan for both subgraph and frontend, and integration testing plan |  
-| 2. | Documentation | [Neutroswap V2 Docs](https://docs.neutroswap.io/neutroswap-v2-coming-soon/staked-positions-spnfts), [Neutroswap V2 Contract Docs](https://github.com/Nava-Labs/neutroswap-v2/blob/main/README.md) | For an extensive understanding of Neutroswap v2, please refer to our [Documentation](https://docs.neutroswap.io) |  
+| 2. | Documentation | [Neutroswap V2 Docs](https://docs.neutroswap.io/neutroswap-v2/staked-positions-spnfts/yield-farming), [Neutroswap V2 Contract Docs](https://github.com/Nava-Labs/neutroswap-v2/blob/main/README.md) | For an extensive understanding of Neutroswap v2, please refer to our [Documentation](https://docs.neutroswap.io) |  
 
 ## General Requirement and Migration Plan
 This document serves as an introduction to the general requirements and migration plan for a decentralized application. It aims to provide an outline for developers, project managers, and stakeholders to navigate the complexities of building and migrating to Neutroswap V2 effectively.
