@@ -3,11 +3,26 @@
 **The [invoice form](https://forms.gle/wLuAzXKa9qYrZQob9) has been filled out for this milestone and the delivery is according to the official [milestone delivery guidelines](https://github.com/eosnetworkfoundation/grant-framework/blob/master/docs/milestone-deliverables-guidelines.md).**
 
 * **Application Document:** [Tokenomics Enhancement Neutroswap
-  ](https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/tokenomics_enhancement_neutroswap.md)
+  ](https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/tokenomics_enhancement_neutroswap.md#milestone-1---smart-contract-development)
 * **Milestone Number:** 1
 
 **Context:**
 For *Milestone 1 - Smart Contract Development* completion
+
+#### 📜 Overview Neutroswap V2 Contracts
+
+- **xNEUTRO:** The locked version and non-transferrable token of $NEUTRO with the purpose of providing utility for users by allocating xNEUTRO to various provided Plugins.
+- **NeutroMaster:** Centralizes Neutro's yield incentives distribution.
+- **NFTPoolFactory:** Factory pattern for creating NFT Pool.
+- **NFTPool:** Wraps ERC20 assets into non-fungible staking positions called spNFTs. Yield-generating positions when the
+  NFTPool contract has allocations from the Neutro Master.
+- **NitroPoolFactory:** Factory pattern for creating Nitro Pool.
+- **NitroPool:** spNFTs Pool for incentives position based on the determined position requirements and purposed for
+  collaborating with other projects.
+- **Dividends:** Plugin to distribute dividends to xNEUTRO allocators.
+- **YieldBooster:** Plugin to boost spNFTs' yield (staking positions on NFTPools).
+- **FairAuctionFactory:** Factory pattern for creating Fair Auction.
+- **NeutroHelper:** Serving FE datas.
 
 **Deliverables:**
 - **Estimated duration:** 2 weeks
@@ -17,8 +32,8 @@ For *Milestone 1 - Smart Contract Development* completion
 | Number | Deliverable   | Link                                                                                                                                                                                                                                                                                                                                             | Notes    |
 | -----: | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | 0a.    | License       | [LICENSE](https://github.com/neutroswap/neutroswap-v2-contracts/blob/main/LICENSE.md) |          |
-| 0b.    | Documentation | https://docs.neutroswap.io/, https://github.com/neutroswap/neutroswap-v2-contracts | First link is to explain how how users can utilize all of the new updates works. The second one is a technical documentation of the smart contract for Neutroswap V2 |
-| 0c.    | Unit Test     | [Unit Test](https://github.com/neutroswap/neutroswap-v2-contracts/tree/main/test), [Unit Test Documentation](https://github.com/neutroswap/neutroswap-v2-contracts/tree/main#-developer-guide) | |
+| 0b.    | Documentation | [Docs](https://docs.neutroswap.io/), [Neutroswap V2 contracts](https://github.com/neutroswap/neutroswap-v2-contracts) | First link is to explain how how users can utilize all of the new updates works. The second one is a technical documentation of the smart contract for Neutroswap V2 |
+| 0c.    | Unit Test     | [Unit Test](https://github.com/neutroswap/neutroswap-v2-contracts/tree/main/test), [Unit Test Documentation](https://github.com/neutroswap/neutroswap-v2-contracts/tree/main#-developer-guide) | All smart contracts for Neutroswap V2 have undergone testing using the Foundry package |
 | 1.     | Core Contracts | [Core Contract Repo](https://github.com/neutroswap/neutroswap-v2-contracts) | Unpacking smart contract requirements, migration plan for both subgraph and frontend, and integration testing plan |  
 | 2.     | Tokenomics Contracts | [xNEUTRO Contract](https://github.com/neutroswap/neutroswap-v2-contracts/blob/main/src/tokens/XNeutroToken.sol) | xNEUTRO can only be redeem with vesting period. It will allow burning mechanism for $NEUTRO. However, $NEUTRO can be converted into $xNEUTRO in instant. |  
 | 3.     | Plugins Contracts | [Plugins Contracts](https://github.com/neutroswap/neutroswap-v2-contracts/tree/main/src/plugins) | Plugin contracts are enabling users to allocate their xNEUTRO into their desired plugins: Dividends, Yield boosters and other community plugins |  
