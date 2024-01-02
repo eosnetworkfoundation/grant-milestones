@@ -26,7 +26,7 @@ For *[Milestone 1 - Smart Contract Development](https://github.com/eosnetworkfou
 
 **Deliverables:**
 - **Estimated duration:** 8 weeks
-- **FTE:**  7
+- **FTE:**  4
 - **Costs:**  40,000 USD
 
 | Number | Deliverable   | Link                                                                                                                                                                                                                                                                                                                                             | Notes    |
@@ -35,12 +35,12 @@ For *[Milestone 1 - Smart Contract Development](https://github.com/eosnetworkfou
 | 0b.    | Documentation | [Docs](https://docs.neutroswap.io/) <br /> [Neutroswap V2 contracts](https://github.com/neutroswap/neutroswap-v2-contracts) | First link is to explain how how users can utilize all of the new updates works. The second one is a technical documentation of the smart contract for Neutroswap V2. |
 | 0c.    | Unit Test     | [Unit Test](https://github.com/neutroswap/neutroswap-v2-contracts/tree/main/test) <br /> [Unit Test Documentation](https://github.com/neutroswap/neutroswap-v2-contracts/tree/main#-developer-guide) | All smart contracts for Neutroswap V2 have undergone testing using the Foundry package. |
 | 0d.    | Testing Guide     | [Guide](https://github.com/neutroswap/neutroswap-v2-contracts?tab=readme-ov-file#-developer-guide) | The testing guide will be updated periodically following any changes we've made during development. |
-| 0e.    | Integration Tests     |  | Conducted tests on the functionality and user experience of the Neutroswap app website, ensuring that the integration of the smart contract with the website is seamless and meets the predetermined requirements. | 
+| 0e.    | Integration Tests     | [Test Report]() | Conducted tests on the functionality and user experience of the Neutroswap app website, ensuring that the integration of the smart contract with the website is seamless and meets the predetermined requirements. | 
 | 1.     | Core Contracts | [Core Contract Repo](https://github.com/neutroswap/neutroswap-v2-contracts) | Unpacking smart contract requirements, migration plan for both subgraph and frontend, and integration testing plan |  
 | 2.     | Tokenomics Contracts | [xNEUTRO Contract](https://github.com/neutroswap/neutroswap-v2-contracts/blob/main/src/tokens/XNeutroToken.sol) | xNEUTRO can only be redeem with vesting period. It will allow burning mechanism for $NEUTRO. However, $NEUTRO can be converted into $xNEUTRO in instant. |  
 | 3.     | Plugins Contracts | [Plugins Contracts](https://github.com/neutroswap/neutroswap-v2-contracts/tree/main/src/plugins) | Plugin contracts are enabling users to allocate their xNEUTRO into their desired plugins: Dividends, Yield boosters and other community plugins |  
 | 4.     | Protocol Revenue Contracts | [NeutroMaster Contract](https://github.com/neutroswap/neutroswap-v2-contracts/blob/main/src/nft-pool-factory/NeutroMaster.sol) | This contract enables efficient distribution of rewards to $xNEUTRO holders. |  
-| 5.     | Subgraph Development |  | We've published three public subgraphs for Neutroswap data indexing. |  
-| 6.     | New V2 UI |  | We've Implemented the V2 high-fidelity UI prototype from earlier stage, while also added new components necessary in enabling users to interact will all of the new updates and keeping the current UI accessible to all users. |  
-| 7.     | Analytics |  | We've created a dedivated analytics page enabling users to see xNEUTRO, spNFTs, and activity in all of the new contracts. |  
-| 8.     | Testnet Deployment |  | We've deployed new contract, subgraphs, and web to the EOSEVM Testnet environment. |  
+| 5.     | Subgraph Development | [Factory Graph](https://testnet.dbi.foundation/subgraphs/name/neutro-amm) <br /> [Launchpad Graph](http://testnet.dbi.foundation/subgraphs/name/neutro-launchpad) <br /> [spNFT Graph](http://testnet.dbi.foundation/subgraphs/name/neutro-nftPool)| We've published three public subgraphs for Neutroswap data indexing. |  
+| 6.     | New V2 UI | [Neutroswap V2 UI]() | We've Implemented the V2 high-fidelity UI prototype from earlier stage, while also added new components necessary in enabling users to interact will all of the new updates and keeping the current UI accessible to all users. |  
+| 7.     | Analytics | [Neutroswap Analytis Page](https://testnet-analytics.neutroswap.io/) | We've created a dedivated analytics page enabling users to see xNEUTRO, spNFTs, and activity in all of the new contracts. |  
+| 8.     | Testnet Deployment | [Smart Contracts]() | We've deployed new contract, subgraphs, and web to the EOSEVM Testnet environment. |  
