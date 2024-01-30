@@ -7,7 +7,7 @@
 * **Milestone Number:** 3
 
 **Context:**
-For *[Milestone 3 - Mainnet Deployment & Marketing](https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/tokenomics_enhancement_neutroswap.md#milestone-1---smart-contract-development)* completion
+For *[Milestone 3 - Mainnet Deployment & Marketing](https://github.com/eosnetworkfoundation/grant-framework/blob/main/applications/tokenomics_enhancement_neutroswap.md#milestone-3---mainnet-deployment--marketing)* completion
 
 #### 📜 Overview Neutroswap V2 Contracts
 
